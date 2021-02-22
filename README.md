@@ -11,9 +11,9 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ### 🗒ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-project-pixels-art.git`.
+  * `git clone https://github.com/tryber/sd-0x-project-pixels-art-rubric.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-pixels-art`
+    * `cd sd-0x-project-pixels-art-rubric`
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -292,7 +292,7 @@ Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus co
 
   * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
 
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`.
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`.
 
 Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
