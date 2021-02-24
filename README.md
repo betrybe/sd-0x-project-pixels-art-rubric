@@ -15,33 +15,29 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Habilidades](#habilidades)
 - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
   - [Data de Entrega](#data-de-entrega)
 - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter) teste
-  - [Dica: desativando testes](#dica-desativando-testes)
-  - [Dica: watch mode](#dica-watch-mode)
+  - [Linter](#linter)
 - [Requisitos do projeto](#requisitos-do-projeto)
-    - [1 - Crie um componente `<Header />`](#1---crie-um-componente-header-)
-    - [2 - Renderize um texto no `<Header />`](#2---renderize-um-texto-no-header-)
-    - [3 - Crie um componente `<MovieList />`](#3---crie-um-componente-movielist-)
-    - [4 - Renderize componentes `<MovieCard />` dentro de `<MovieList />`](#4---renderize-componentes-moviecard--dentro-de-movielist-)
-    - [5 - Passe uma key para cada `<MovieCard />` renderizado](#5---passe-uma-key-para-cada-moviecard--renderizado)
-    - [6 - Crie um componente `<MovieCard />`](#6---crie-um-componente-moviecard-)
-    - [7 - Renderize a imagem do filme dentro de uma tag `img`](#7---renderize-a-imagem-do-filme-dentro-de-uma-tag-img)
-    - [8 - Renderize o título do filme dentro de uma tag `h4`](#8---renderize-o-título-do-filme-dentro-de-uma-tag-h4)
-    - [9 - Renderize o subtítulo do filme dentro de uma tag `h5`](#9---renderize-o-subtítulo-do-filme-dentro-de-uma-tag-h5)
-    - [10 - Renderize a sinopse do filme dentro de uma tag `p`](#10---renderize-a-sinopse-do-filme-dentro-de-uma-tag-p)
-    - [11 - Crie um componente `<Rating />`](#11---crie-um-componente-rating-)
-    - [12 - Renderize a nota de um filme dentro de `Rating`](#12---renderize-a-nota-de-um-filme-dentro-de-rating)
-    - [13 - Renderize o componente `<Rating />` dentro de `<MovieCard />`](#13---renderize-o-componente-rating--dentro-de-moviecard-)
-    - [14 - Passe como prop para o componente `<Rating />` o atributo `rating`](#14---passe-como-prop-para-o-componente-rating--o-atributo-rating)
-    - [15 - Crie um componente `<App />`](#15---crie-um-componente-app-)
-    - [16 - Renderize `<MovieList />` dentro do componente `<App />`](#16---renderize-movielist--dentro-do-componente-app-)
-    - [17 - Adicione PropTypes a todos os componentes](#17---adicione-proptypes-a-todos-os-componentes)
+
+    `Requisitos obrigatórios:`
+    - [1 - A página deve possuir o título "Paleta de Cores".](#1---a-página-deve-possuir-o-título-paleta-de-cores)
+    - [2 - A página deve possuir uma paleta de quatro cores distintas.](#2---a-página-deve-possuir-uma-paleta-de-quatro-cores-distintas)
+    - [3 - A cor preta deve ser a primeira na paleta de cores.](#3---a-cor-preta-deve-ser-a-primeira-na-paleta-de-cores)
+    - [4 - A página deve possuir um quadro de pixels, com 25 pixels.](#4---a-página-deve-possuir-um-quadro-de-pixels-com-25-pixels)
+    - [5 - Cada elemento do quadro de pixels deve possuir 40 pixels de largura e 40 pixels de altura e ser delimitado por uma borda preta de 1 pixel.](#5---cada-elemento-do-quadro-de-pixels-deve-possuir-40-pixels-de-largura-e-40-pixels-de-altura-e-ser-delimitado-por-uma-borda-preta-de-1-pixel)
+    - [6 - Ao carregar a página, a cor preta da paleta já deve estar selecionada para pintar os pixels.](#6---ao-carregar-a-página-a-cor-preta-da-paleta-já-deve-estar-selecionada-para-pintar-os-pixels)
+    - [7 - Ao clicar em uma das cores da paleta, a cor selecionada é que vai ser usada para preencher os pixels no quadro.](#7---ao-clicar-em-uma-das-cores-da-paleta-a-cor-selecionada-é-que-vai-ser-usada-para-preencher-os-pixels-no-quadro)
+    - [8 - Ao clicar em um pixel dentro do quadro após selecionar uma cor na paleta, o pixel deve ser preenchido com esta cor.](#8---ao-clicar-em-um-pixel-dentro-do-quadro-após-selecionar-uma-cor-na-paleta-o-pixel-deve-ser-preenchido-com-esta-cor)
+    - [9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.](#9---crie-um-botão-que-ao-ser-clicado-limpa-o-quadro-preenchendo-a-cor-de-todos-seus-pixels-com-branco)
+
+    `Requisitos bônus:`
+    - [10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.](#10---faça-o-quadro-de-pixels-ter-seu-tamanho-definido-pelo-usuário)
+    - [11 - Limite o tamanho do mínimo e máximo do board.](#11---limite-o-tamanho-do-mínimo-e-máximo-do-board)
+    - [12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.](#12---faça-com-que-as-cores-da-paleta-sejam-geradas-aleatoriamente-ao-carregar-a-página)
 - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos Finais](#avisos-finais)
@@ -49,6 +45,10 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ---
 
 # Habilidades
+
+- Manipular o DOM
+
+- Manipular o Javascript
 
 ---
 
@@ -68,9 +68,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
 ## O que deverá ser desenvolvido
 
----
-
-## Desenvolvimento
+- Você irá implementar uma paleta de cores usando `javascript` e `css`.
 
 ---
 
@@ -150,8 +148,6 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
 # Como desenvolver
 
----
-
 ## Linter
 
 Para garantir a qualidade do código, vamos utilizar neste projeto os linters `ESLint` e `StyleLint`.
@@ -162,7 +158,6 @@ e de fácil manutenção! Para rodá-los localmente no projeto, execute os coman
 npm run lint
 npm run lint:styles
 ```
-
 
 ⚠️ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS.
 ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
