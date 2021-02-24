@@ -21,7 +21,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
+  - [Linter](#linter) teste
   - [Dica: desativando testes](#dica-desativando-testes)
   - [Dica: watch mode](#dica-watch-mode)
 - [Requisitos do projeto](#requisitos-do-projeto)
