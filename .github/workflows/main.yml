@@ -37,7 +37,7 @@ jobs:
         uses: betrybe/cypress-evaluator-action@v5
         with:
           repository-test-name: 'betrybe/sd-0x-block5-project-pixels-art-tests'
-          repository-test-branch: 'master'
+          repository-test-branch: 'ajustes_testes'
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v2
         with:
