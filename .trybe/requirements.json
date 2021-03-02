@@ -1,19 +1,19 @@
 {
   "requirements": [
     {
-      "description": "1 - Crie uma página onde deve conter o título `Paleta de Cores`.",
+      "description": "1 - Adicione a página o título \"Paleta de Cores\".",
       "bonus": false
     },
     {
-      "description": "2 - Crie uma página onde deve conter uma paleta de quatro cores distintas.",
+      "description": "2 - Adicione a página uma paleta de quatro cores distintas.",
       "bonus": false
     },
     {
-      "description": "3 - Faça com que a cor preta seja a primeira na paleta de cores.",
+      "description": "3 - Adicione na página a cor **preta** ela deve ser a primeira na paleta de cores.",
       "bonus": false
     },
     {
-      "description": "4 - Aplique na página um quadro de pixels, com 25 pixels.",
+      "description": "4 - Adicione a página a página um quadro de pixels, com 25 pixels.",
       "bonus": false
     },
     {

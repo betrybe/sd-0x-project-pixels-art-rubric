@@ -212,7 +212,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 **Ou seja, dada uma paleta de cores e um quadro composto por pixels, você vai permitir que quem usa consiga pintar o que quiser no quadro!** 👩‍🎨
 
-### 1 - A página deve possuir o título "Paleta de Cores".
+### 1 - Adicione a página o título "Paleta de Cores".
 
 - O título deverá ficar dentro de uma tag `h1` com o `id` denominado `title`;
 
@@ -222,7 +222,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se contém um elemento `h1` com o id `title` com o título correto
 
-### 2 - A página deve possuir uma paleta de quatro cores distintas.
+### 2 - Adicione a página uma paleta de quatro cores distintas.
 
 - A paleta de cores deve ser um elemento com `id` denominado `color-palette`, ao passo que cada cor individual da paleta de cores deve possuir a `classe` `color`;
 
@@ -250,7 +250,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se a paleta de cores não deve conter cores repetidas.
 
-### 3 - A cor **preta** deve ser a primeira na paleta de cores.
+### 3 - Adicione na página a cor **preta** ela deve ser a primeira na paleta de cores.
 
 **O que será verificado:**
 
@@ -258,7 +258,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se as demais cores podem ser escolhidas livremente.
 
-### 4 - A página deve possuir um quadro de pixels, com 25 pixels.
+### 4 - Adicione a página a página um quadro de pixels, com 25 pixels.
 
 - O quadro de "pixels" deve ter 5 elementos de largura e 5 elementos de comprimento;
 
@@ -278,7 +278,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se o quadro de pixels deve aparecer abaixo da paleta de cores
 
-### 5 - Cada elemento do quadro de pixels deve possuir 40 _pixels_ de largura e 40 _pixels_ de altura e ser delimitado por uma borda preta de 1 pixel.
+### 5 - Aplique a cada elemento do quadro de pixels, deve possuir 40 pixels de largura e 40 pixels de altura e ser delimitado por uma borda preta de 1 pixel.
 
 **O que será verificado:**
 
@@ -286,7 +286,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se 40 pixels deve ser o tamanho total do elemento, incluindo seu conteúdo e excluindo a borda preta, que deve ser criada à parte.
 
-### 6 - Ao carregar a página, a cor **preta** da paleta já deve estar selecionada para pintar os pixels.
+### 6 - Executar o carregamento da página, a cor preta da paleta já deve estar selecionada para pintar os pixels.
 
 - O elemento da cor preta deve possuir, inicialmente, a `classe` `selected`;
 
@@ -298,7 +298,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se nenhuma outra cor da paleta tem a `classe` `selected`
 
-### 7 - Ao clicar em uma das cores da paleta, a cor selecionada é que vai ser usada para preencher os pixels no quadro.
+### 7 - Clicar em uma das cores da paleta, a cor selecionada é que vai ser usada para preencher os pixels no quadro.
 
 - A `classe` `selected` deve ser adicionada à cor selecionada na paleta, ao mesmo tempo em que é removida da cor anteriormente selecionada;
 
@@ -312,7 +312,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se os pixels dentro do quadro não podem ter a classe `selected` quando são clicados
 
-### 8 - Ao clicar em um pixel dentro do quadro após selecionar uma cor na paleta, o pixel deve ser preenchido com esta cor.
+### 8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, o pixel deve ser preenchido com esta cor.
 
 **O que será verificado:**
 
