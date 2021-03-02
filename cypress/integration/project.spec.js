@@ -148,7 +148,7 @@ describe('3 - Adicione na página a cor **preta** ela deve ser a primeira na pal
   });
 });
 
-describe('4 - Adicione a página a página um quadro de pixels, com 25 pixels.', () => {
+describe('4 - Adicione a página um quadro de pixels, com 25 pixels.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });

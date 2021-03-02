@@ -258,7 +258,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se as demais cores podem ser escolhidas livremente.
 
-### 4 - Adicione a página a página um quadro de pixels, com 25 pixels.
+### 4 - Adicione a página um quadro de pixels, com 25 pixels.
 
 - O quadro de "pixels" deve ter 5 elementos de largura e 5 elementos de comprimento;
 
