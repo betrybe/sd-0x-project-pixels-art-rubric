@@ -32,7 +32,7 @@ describe('2 - Adicione à página uma paleta de quatro cores distintas.', () => 
     cy.get('#color-palette').should('be.visible');
   });
 
-  it('Verifica se cada cor individual da paleta de cores deve possuir a `classe` `color`.', () => {
+  it('Verifica se cada cor individual da paleta de cores possui a `classe` `color`.', () => {
     cy.get('.color')
       .should('have.length', 4)
       .then((colors) => {
@@ -43,7 +43,7 @@ describe('2 - Adicione à página uma paleta de quatro cores distintas.', () => 
       });
   });
 
-  it('Verifica se a cor de fundo de cada elemento da paleta deverá ser a cor que o elemento representa. **A única cor não permitida na paleta é a cor branca.**', () => {
+  it('Verifica se a cor de fundo de cada elemento da paleta é a cor que o elemento representa. **A única cor não permitida na paleta é a cor branca.**', () => {
     cy.get('.color')
       .each((color) => {
         cy.wrap(color)
@@ -54,7 +54,7 @@ describe('2 - Adicione à página uma paleta de quatro cores distintas.', () => 
       });
   });
 
-  it('Verifica se cada elemento da paleta de cores deverá ter uma borda preta, sólida e com 1 pixel de largura;', () => {
+  it('Verifica se cada elemento da paleta de cores tem uma borda preta, sólida e com 1 pixel de largura;', () => {
     cy.get('.color')
       .each((color) => {
         cy.wrap(color)
@@ -63,7 +63,7 @@ describe('2 - Adicione à página uma paleta de quatro cores distintas.', () => 
       });
   });
 
-  it('Verifica se a paleta deverá listar todas as cores disponíveis para utilização, lado a lado', () => {
+  it('Verifica se a paleta lista todas as cores disponíveis para utilização, lado a lado.', () => {
     cy.get('.color')
       .then((colors) => {
         for (let index = 1; index < colors.length; index += 1) {
@@ -76,13 +76,13 @@ describe('2 - Adicione à página uma paleta de quatro cores distintas.', () => 
       });
   });
 
-  it('Verifica se a paleta de cores deverá ser posicionada abaixo do título \'Paleta de Cores\'', () => {
+  it('Verifica se a paleta de cores está posicionada abaixo do título \'Paleta de Cores\'', () => {
     cy.get('h1#title').then((title) => {
       cy.get('#color-palette').should('be.belowOf', title);
     });
   });
 
-  it('Verifica se a paleta de cores não deve conter cores repetidas.', () => {
+  it('Verifica se a paleta de cores não contém cores repetidas.', () => {
     cy.get('.color').then((colors) => {
       const allColors = Array.from(colors).map((color) => (
         Cypress.$(color).css('background-color')
@@ -153,15 +153,15 @@ describe('4 - Adicione à página um quadro de pixels, com 25 pixels.', () => {
     cy.visit('./index.html');
   });
 
-  it('Verifica se o quadro de pixels deve possuir o `id` denominado `pixel-board`', () => {
+  it('Verifica se o quadro de pixels possui o `id` denominado `pixel-board`', () => {
     cy.get('#pixel-board').should('be.visible');
   });
 
-  it('Verifica se cada pixel individual dentro do quadro deve possuir a `classe` denominada `pixel`.', () => {
+  it('Verifica se cada pixel individual dentro do quadro possui a `classe` denominada `pixel`.', () => {
     cy.get('.pixel').should('have.length', 25);
   });
 
-  it('Verifica se a cor inicial dos pixels dentro do quadro, ao abrir a página, deve ser branca.', () => {
+  it('Verifica se a cor inicial dos pixels dentro do quadro, ao abrir a página, é branca.', () => {
     cy.get('.pixel')
       .should('have.length', 25)
       .each((pixel) => {
@@ -169,14 +169,14 @@ describe('4 - Adicione à página um quadro de pixels, com 25 pixels.', () => {
       });
   });
 
-  it('Verifica se o quadro de pixels deve aparecer abaixo da paleta de cores', () => {
+  it('Verifica se o quadro de pixels aparece abaixo da paleta de cores', () => {
     cy.get('#color-palette').then((palette) => {
       cy.get('#pixel-board').should('be.belowOf', palette);
     });
   });
 });
 
-describe('5 - Aplique a cada elemento do quadro de pixels, deve possuir 40 pixels de largura e 40 pixels de altura e ser delimitado por uma borda preta de 1 pixel.', () => {
+describe('5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
@@ -205,7 +205,7 @@ describe('5 - Aplique a cada elemento do quadro de pixels, deve possuir 40 pixel
       });
   });
 
-  it('Verifica se 40 pixels deve ser o tamanho total do elemento, incluindo seu conteúdo e excluindo a borda preta, que deve ser criada à parte.', () => {
+  it('Verifica se 40 pixels é o tamanho total do elemento, incluindo seu conteúdo e excluindo a borda preta, que deve ser criada à parte.', () => {
     cy.get('.pixel')
       .each((pixel) => {
         cy.wrap(pixel)
@@ -216,12 +216,12 @@ describe('5 - Aplique a cada elemento do quadro de pixels, deve possuir 40 pixel
   });
 });
 
-describe('6 - Executar o carregamento da página, a cor preta da paleta já deve estar selecionada para pintar os pixels.', () => {
+describe('6 - Definia a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
 
-  it('Verifica se o elemento da cor preta deve possuir, inicialmente, a `classe` `selected`', () => {
+  it('Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`', () => {
     cy.get('.selected').first().should('have.css', 'background-color', BLACK);
   });
 
@@ -233,7 +233,7 @@ describe('6 - Executar o carregamento da página, a cor preta da paleta já deve
   });
 });
 
-describe('7 - Clicar em uma das cores da paleta, a cor selecionada é que vai ser usada para preencher os pixels no quadro.', () => {
+describe('7 -  Selecione uma das cores da paleta, ao clicar, a cor selecionada é a que será utilizada para preencher os pixels no quadro.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
@@ -251,7 +251,7 @@ describe('7 - Clicar em uma das cores da paleta, a cor selecionada é que vai se
     });
   });
 
-  it('Verifica se os pixels dentro do quadro não podem ter a classe `selected` quando são clicados', () => {
+  it('Verifica se os pixels dentro do quadro não têm a classe `selected` quando são clicados', () => {
     cy.get('.color').each((color) => {
       const backgroundColor = color.css('background-color');
       cy.wrap(color).click();
@@ -264,7 +264,7 @@ describe('7 - Clicar em uma das cores da paleta, a cor selecionada é que vai se
   });
 });
 
-describe('8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, o pixel deve ser preenchido com esta cor.', () => {
+describe('8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
@@ -277,7 +277,7 @@ describe('8 - Clicar em um pixel dentro do quadro após selecionar uma cor na pa
     });
   });
 
-  it('Verifica se após selecionar uma outra cor na paleta, deve ser possível pintar os pixels com essa cor', () => {
+  it('Verifica se após selecionar uma outra cor na paleta, é possível pintar os pixels com essa cor', () => {
     cy.get('.color').each((color) => {
       const backgroundColor = color.css('background-color');
       cy.wrap(color).click();
@@ -289,7 +289,7 @@ describe('8 - Clicar em um pixel dentro do quadro após selecionar uma cor na pa
     });
   });
 
-  it('Verifica se somente o pixel que foi clicado deverá ser preenchido com a cor selecionada, sem influenciar na cor dos demais pixels.', () => {
+  it('Verifica se somente o pixel que foi clicado foi preenchido com a cor selecionada, sem influenciar na cor dos demais pixels.', () => {
     const colorToPixelIndexMap = { 0: 6, 1: 8, 2: 16, 3: 18 };
     cy.get('.color').each((color, index) => {
       cy.wrap(color).click();
@@ -332,11 +332,11 @@ describe('9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a c
     cy.visit('./index.html');
   });
 
-  it('Verifica se o botão deve ter o `id` denominado `clear-board`', () => {
+  it('Verifica se o botão tem o `id` denominado `clear-board`', () => {
     cy.get('#clear-board').should('be.visible');
   });
 
-  it('Verifica se o botão deve estar posicionado entre a paleta de cores e o quadro de pixels', () => {
+  it('Verifica se o botão está posicionado entre a paleta de cores e o quadro de pixels', () => {
     cy.get('#color-palette').then((palette) => {
       cy.get('#clear-board').should('be.belowOf', palette);
     });
@@ -346,7 +346,7 @@ describe('9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a c
     });
   });
 
-  it('Verifica se o texto do botão deve ser \'Limpar\'', () => {
+  it('Verifica se o texto do botão é \'Limpar\'', () => {
     cy.get('#clear-board').should('contain.text', 'Limpar');
   });
 
@@ -382,15 +382,15 @@ describe('10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.'
     cy.get('#generate-board').should('be.visible');
   });
 
-  it('Verifica se o input só deve aceitar número maiores que zero. Essa restrição deve ser feita usando os atributos do elemento `input`', () => {
+  it('Verifica se o input só aceita número maiores que zero. Essa restrição deve ser feita usando os atributos do elemento `input`', () => {
     cy.get('#board-size[type=\'number\'][min=\'1\']');
   });
 
-  it('Verifica se o botão deve conter o texto \'VQV\'', () => {
+  it('Verifica se o botão contém o texto \'VQV\'', () => {
     cy.get('#generate-board').contains(/vqv/i);
   });
 
-  it('Verifica se o input deve estar posicionado entre a paleta de cores e o quadro de pixels', () => {
+  it('Verifica se o input está posicionado entre a paleta de cores e o quadro de pixels', () => {
     cy.get('#color-palette').then((palette) => {
       cy.get('#board-size').should('be.belowOf', palette);
     });
@@ -400,13 +400,13 @@ describe('10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.'
     });
   });
 
-  it('Verifica se o botão deve estar posicionado ao lado do input', () => {
+  it('Verifica se o botão está posicionado ao lado do input', () => {
     cy.get('#board-size').then((board) => {
       cy.get('#generate-board').should('be.onTheRightOf', board);
     });
   });
 
-  it('Verifica se nenhum valor for colocado no input ao clicar no botão, mostre um `alert` com o texto: \'Board inválido!\'', () => {
+  it('Verifica se nenhum valor for colocado no input ao clicar no botão, um `alert` é exibido com o texto: \'Board inválido!\'', () => {
     let alerted = false;
     cy.on('window:alert', (msg) => alerted = msg);
 
@@ -421,7 +421,7 @@ describe('10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.'
     cy.get('.pixel').should('have.length', 100);
   });
 
-  it('Verifica se o novo quadro deve ter todos os pixels preenchidos com a cor branca', () => {
+  it('Verifica se o novo quadro tem todos os pixels preenchidos com a cor branca', () => {
     cy.get('#board-size').clear().type(6);
     cy.get('#generate-board').click();
     cy.get('.pixel')
@@ -486,7 +486,7 @@ describe('12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao 
     });
   });
 
-  it('Verifica se a cor preta ainda precisa estar presente e deve ser a primeira na sua paleta de cores', () => {
+  it('Verifica se a cor preta ainda está presente e é a primeira na sua paleta de cores', () => {
     cy.get('.color').then((colors) => {
       let currentColors; let
         previousColors;

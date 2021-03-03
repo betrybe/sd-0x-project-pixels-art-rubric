@@ -15,6 +15,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Habilidades](#habilidades)
 - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+  - [Desenvolvimento](#desenvolvimento)
   - [Data de Entrega](#data-de-entrega)
 - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
@@ -24,14 +25,14 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
-    - [1 - A página deve possuir o título "Paleta de Cores".](#1---a-página-deve-possuir-o-título-paleta-de-cores)
-    - [2 - A página deve possuir uma paleta de quatro cores distintas.](#2---a-página-deve-possuir-uma-paleta-de-quatro-cores-distintas)
-    - [3 - A cor preta deve ser a primeira na paleta de cores.](#3---a-cor-preta-deve-ser-a-primeira-na-paleta-de-cores)
-    - [4 - A página deve possuir um quadro de pixels, com 25 pixels.](#4---a-página-deve-possuir-um-quadro-de-pixels-com-25-pixels)
-    - [5 - Cada elemento do quadro de pixels deve possuir 40 pixels de largura e 40 pixels de altura e ser delimitado por uma borda preta de 1 pixel.](#5---cada-elemento-do-quadro-de-pixels-deve-possuir-40-pixels-de-largura-e-40-pixels-de-altura-e-ser-delimitado-por-uma-borda-preta-de-1-pixel)
-    - [6 - Ao carregar a página, a cor preta da paleta já deve estar selecionada para pintar os pixels.](#6---ao-carregar-a-página-a-cor-preta-da-paleta-já-deve-estar-selecionada-para-pintar-os-pixels)
-    - [7 - Ao clicar em uma das cores da paleta, a cor selecionada é que vai ser usada para preencher os pixels no quadro.](#7---ao-clicar-em-uma-das-cores-da-paleta-a-cor-selecionada-é-que-vai-ser-usada-para-preencher-os-pixels-no-quadro)
-    - [8 - Ao clicar em um pixel dentro do quadro após selecionar uma cor na paleta, o pixel deve ser preenchido com esta cor.](#8---ao-clicar-em-um-pixel-dentro-do-quadro-após-selecionar-uma-cor-na-paleta-o-pixel-deve-ser-preenchido-com-esta-cor)
+    - [1 - Adicione à página o título "Paleta de Cores".](#1---adicione-à-página-o-título-paleta-de-cores)
+    - [2 - Adicione à página uma paleta de quatro cores distintas.](#2---adicione-à-página-uma-paleta-de-quatro-cores-distintas)
+    - [3 - Adicione na página a cor preta ela deve ser a primeira na paleta de cores.](#3---adicione-na-página-a-cor-preta-ela-deve-ser-a-primeira-na-paleta-de-cores)
+    - [4 - Adicione à página um quadro de pixels, com 25 pixels.](#4---adicione-à-página-um-quadro-de-pixels-com-25-pixels)
+    - [5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.](#5---aplique-a-cada-elemento-do-quadro-de-pixels-deve-possuir-40-pixels-de-largura-e-40-pixels-de-altura-e-ser-delimitado-por-uma-borda-preta-de-1-pixel)
+    - [6 - Definia a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels](#6---executar-o-carregamento-da-página-a-cor-preta-da-paleta-já-deve-estar-selecionada-para-pintar-os-pixels)
+    - [7 - Selecione uma das cores da paleta, ao clicar, a cor selecionada é a que será utilizada para preencher os pixels no quadro.](#7---clicar-em-uma-das-cores-da-paleta-a-cor-selecionada-é-que-vai-ser-usada-para-preencher-os-pixels-no-quadro)
+    - [8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada.](#8---clicar-em-um-pixel-dentro-do-quadro-após-selecionar-uma-cor-na-paleta-o-pixel-deve-ser-preenchido-com-esta-cor)
     - [9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.](#9---crie-um-botão-que-ao-ser-clicado-limpa-o-quadro-preenchendo-a-cor-de-todos-seus-pixels-com-branco)
 
     `Requisitos bônus:`
@@ -52,23 +53,15 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-# Entregáveis
+## O que deverá ser desenvolvido
 
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
-
-Este Pull Request deverá conter os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código HTML, CSS e JavaScript, respectivamente.
-
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a monitoria.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
+- Você irá implementar uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels. Para isto você irá utilizar `javascript`, `css` e `html`
 
 ---
 
-## O que deverá ser desenvolvido
+### Desenvolvimento
 
-- Você irá implementar uma paleta de cores usando `javascript` e `css`.
+- Implemente uma paleta de cores usando `javascript`, `css` e `html`.
 
 ---
 
@@ -147,6 +140,24 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 ---
 
 # Como desenvolver
+
+- Este Pull Request deverá conter os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código HTML, CSS e JavaScript, respectivamente.
+
+## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
+
+Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a monitoria.
+
+## Dicas
+
+- Você pode pesquisar sobre a propriedade `display` do CSS, [especificamente sobre as opções `table`, `table-row` e `table-cell`](https://stackoverflow.com/questions/29229523/how-and-why-to-use-display-table-cell-css) para te ajudar a posicionar os elementos;
+
+- [Que tal](https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/) usar um _loop_ para adicionar o mesmo evento em vários elementos? [Ou então](https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/) a técnica de _event bubbling_ combinada com `classList`?
+
+- Se precisar consultar os valores do _CSS_ de um elemento a partir do _JavaScript_, [dê uma olhada aqui](https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp).
+
+- Para alterar alguma propriedade do _CSS_ de um elemento através do _JavaScript_, dê uma olhada no [atributo `style`](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp) do elemento.
+
+- Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/pixels-art`.
 
 ## Linter
 
@@ -238,17 +249,17 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - A paleta de cores deve ser um elemento com `id` denominado `color-palette`
 
-- Verifica se cada cor individual da paleta de cores deve possuir a `classe` `color`.
+- Verifica se cada cor individual da paleta de cores possui a `classe` `color`.
 
-- Verifica se a cor de fundo de cada elemento da paleta deverá ser a cor que o elemento representa. **A única cor não permitida na paleta é a cor branca.**
+- Verifica se a cor de fundo de cada elemento da paleta é a cor que o elemento representa. **A única cor não permitida na paleta é a cor branca.**
 
-- Verifica se cada elemento da paleta de cores deverá ter uma borda preta, sólida e com 1 pixel de largura;
+- Verifica se cada elemento da paleta de cores tem uma borda preta, sólida e com 1 pixel de largura;
 
-- Verifica se a paleta deverá listar todas as cores disponíveis para utilização, lado a lado
+- Verifica se a paleta lista todas as cores disponíveis para utilização, lado a lado.
 
-- Verifica se a paleta de cores deverá ser posicionada abaixo do título \'Paleta de Cores\'
+- Verifica se a paleta de cores está posicionada abaixo do título \'Paleta de Cores\'
 
-- Verifica se a paleta de cores não deve conter cores repetidas.
+- Verifica se a paleta de cores não contém cores repetidas.
 
 ### 3 - Adicione na página a cor **preta** ela deve ser a primeira na paleta de cores.
 
@@ -270,23 +281,23 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 **O que será verificado:**
 
-- Verifica se o quadro de pixels deve possuir o `id` denominado `pixel-board`
+- Verifica se o quadro de pixels possui o `id` denominado `pixel-board`
 
-- Verifica se cada pixel individual dentro do quadro deve possuir a `classe` denominada `pixel`.
+- Verifica se cada pixel individual dentro do quadro possui a `classe` denominada `pixel`.
 
-- Verifica se a cor inicial dos pixels dentro do quadro, ao abrir a página, deve ser branca.
+- Verifica se a cor inicial dos pixels dentro do quadro, ao abrir a página, é branca.
 
-- Verifica se o quadro de pixels deve aparecer abaixo da paleta de cores
+- Verifica se o quadro de pixels aparece abaixo da paleta de cores
 
-### 5 - Aplique a cada elemento do quadro de pixels, deve possuir 40 pixels de largura e 40 pixels de altura e ser delimitado por uma borda preta de 1 pixel.
+### 5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.
 
 **O que será verificado:**
 
 - Verifica se o quadro de pixels tem altura e comprimento de 5 elementos
 
-- Verifica se 40 pixels deve ser o tamanho total do elemento, incluindo seu conteúdo e excluindo a borda preta, que deve ser criada à parte.
+- Verifica se 40 pixels é o tamanho total do elemento, incluindo seu conteúdo e excluindo a borda preta, que deve ser criada à parte.
 
-### 6 - Executar o carregamento da página, a cor preta da paleta já deve estar selecionada para pintar os pixels.
+### 6 - Definia a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels
 
 - O elemento da cor preta deve possuir, inicialmente, a `classe` `selected`;
 
@@ -294,11 +305,11 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 **O que será verificado:**
 
-- Verifica se o elemento da cor preta deve possuir, inicialmente, a `classe` `selected`
+- Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`
 
 - Verifica se nenhuma outra cor da paleta tem a `classe` `selected`
 
-### 7 - Clicar em uma das cores da paleta, a cor selecionada é que vai ser usada para preencher os pixels no quadro.
+### 7 - Selecione uma das cores da paleta, ao clicar, a cor selecionada é a que será utilizada para preencher os pixels no quadro.
 
 - A `classe` `selected` deve ser adicionada à cor selecionada na paleta, ao mesmo tempo em que é removida da cor anteriormente selecionada;
 
@@ -310,27 +321,27 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez
 
-- Verifica se os pixels dentro do quadro não podem ter a classe `selected` quando são clicados
+- Verifica se os pixels dentro do quadro não têm a classe `selected` quando são clicados
 
-### 8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, o pixel deve ser preenchido com esta cor.
+### 8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada.
 
 **O que será verificado:**
 
 - Verifica se ao carregar a página deve ser possível pintar os pixels de preto
 
-- Verifica se após selecionar uma outra cor na paleta, deve ser possível pintar os pixels com essa cor
+- Verifica se após selecionar uma outra cor na paleta, é possível pintar os pixels com essa cor
 
-- Verifica se somente o pixel que foi clicado deverá ser preenchido com a cor selecionada, sem influenciar na cor dos demais pixels.
+- Verifica se somente o pixel que foi clicado foi preenchido com a cor selecionada, sem influenciar na cor dos demais pixels.
 
 ### 9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.
 
 **O que será verificado:**
 
-- Verifica se o botão deve ter o `id` denominado `clear-board`
+- Verifica se o botão tem o `id` denominado `clear-board`
 
-- Verifica se o botão deve estar posicionado entre a paleta de cores e o quadro de pixels
+- Verifica se o botão está posicionado entre a paleta de cores e o quadro de pixels
 
-- Verifica se o texto do botão deve ser \'Limpar\'
+- Verifica se o texto do botão é \'Limpar\'
 
 - Verifica se ao clicar no botão, o quadro de pixels é totalmente preenchido de branco
 
@@ -362,19 +373,19 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se existe um botão com o id `generate-board`
 
-- Verifica se o input só deve aceitar número maiores que zero. Essa restrição deve ser feita usando os atributos do elemento `input`
+- Verifica se o input só aceita número maiores que zero. Essa restrição deve ser feita usando os atributos do elemento `input`
 
-- Verifica se o botão deve conter o texto \'VQV\'
+- Verifica se o botão contém o texto \'VQV\'
 
-- Verifica se o input deve estar posicionado entre a paleta de cores e o quadro de pixels
+- Verifica se o input está posicionado entre a paleta de cores e o quadro de pixels
 
-- Verifica se o botão deve estar posicionado ao lado do input
+- Verifica se o botão está posicionado ao lado do input
 
-- Verifica se nenhum valor for colocado no input ao clicar no botão, mostre um `alert` com o texto: \'Board inválido!\'
+- Verifica se nenhum valor for colocado no input ao clicar no botão, um `alert` é exibido com o texto: \'Board inválido!\'
 
 - Verifica se ao clicar no botão com um valor preenchido, o tamanho do board muda.
 
-- Verifica se o novo quadro deve ter todos os pixels preenchidos com a cor branca
+- Verifica se o novo quadro tem todos os pixels preenchidos com a cor branca
 
 ### 11 - Limite o tamanho do mínimo e máximo do board.
 
@@ -400,21 +411,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se as cores geradas na paleta são diferentes a cada carregamento da página
 
-- Verifica se a cor preta ainda precisa estar presente e deve ser a primeira na sua paleta de cores
-
----
-
-## Dicas
-
-- Você pode pesquisar sobre a propriedade `display` do CSS, [especificamente sobre as opções `table`, `table-row` e `table-cell`](https://stackoverflow.com/questions/29229523/how-and-why-to-use-display-table-cell-css) para te ajudar a posicionar os elementos;
-
-- [Que tal](https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/) usar um _loop_ para adicionar o mesmo evento em vários elementos? [Ou então](https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/) a técnica de _event bubbling_ combinada com `classList`?
-
-- Se precisar consultar os valores do _CSS_ de um elemento a partir do _JavaScript_, [dê uma olhada aqui](https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp).
-
-- Para alterar alguma propriedade do _CSS_ de um elemento através do _JavaScript_, dê uma olhada no [atributo `style`](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp) do elemento.
-
-- Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/pixels-art`.
+- Verifica se a cor preta ainda está presente e é a primeira na sua paleta de cores
 
 ---
 
