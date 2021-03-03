@@ -212,7 +212,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 **Ou seja, dada uma paleta de cores e um quadro composto por pixels, você vai permitir que quem usa consiga pintar o que quiser no quadro!** 👩‍🎨
 
-### 1 - Adicione a página o título "Paleta de Cores".
+### 1 - Adicione à página o título "Paleta de Cores".
 
 - O título deverá ficar dentro de uma tag `h1` com o `id` denominado `title`;
 
@@ -222,7 +222,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se contém um elemento `h1` com o id `title` com o título correto
 
-### 2 - Adicione a página uma paleta de quatro cores distintas.
+### 2 - Adicione à página uma paleta de quatro cores distintas.
 
 - A paleta de cores deve ser um elemento com `id` denominado `color-palette`, ao passo que cada cor individual da paleta de cores deve possuir a `classe` `color`;
 
@@ -258,7 +258,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se as demais cores podem ser escolhidas livremente.
 
-### 4 - Adicione a página um quadro de pixels, com 25 pixels.
+### 4 - Adicione à página um quadro de pixels, com 25 pixels.
 
 - O quadro de "pixels" deve ter 5 elementos de largura e 5 elementos de comprimento;
 

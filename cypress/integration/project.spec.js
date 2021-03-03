@@ -13,7 +13,7 @@ function chunk(arr, len) {
   return chunks;
 }
 
-describe('1 - Adicione a página o título "Paleta de Cores".', () => {
+describe('1 - Adicione à página o título "Paleta de Cores".', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
@@ -23,7 +23,7 @@ describe('1 - Adicione a página o título "Paleta de Cores".', () => {
   });
 });
 
-describe('2 - Adicione a página uma paleta de quatro cores distintas.', () => {
+describe('2 - Adicione à página uma paleta de quatro cores distintas.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
@@ -148,7 +148,7 @@ describe('3 - Adicione na página a cor **preta** ela deve ser a primeira na pal
   });
 });
 
-describe('4 - Adicione a página um quadro de pixels, com 25 pixels.', () => {
+describe('4 - Adicione à página um quadro de pixels, com 25 pixels.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });

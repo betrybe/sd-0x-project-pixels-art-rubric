@@ -1,11 +1,11 @@
 {
   "requirements": [
     {
-      "description": "1 - Adicione a página o título \"Paleta de Cores\".",
+      "description": "1 - Adicione à página o título \"Paleta de Cores\".",
       "bonus": false
     },
     {
-      "description": "2 - Adicione a página uma paleta de quatro cores distintas.",
+      "description": "2 - Adicione à página uma paleta de quatro cores distintas.",
       "bonus": false
     },
     {
@@ -13,7 +13,7 @@
       "bonus": false
     },
     {
-      "description": "4 - Adicione a página um quadro de pixels, com 25 pixels.",
+      "description": "4 - Adicione à página um quadro de pixels, com 25 pixels.",
       "bonus": false
     },
     {
