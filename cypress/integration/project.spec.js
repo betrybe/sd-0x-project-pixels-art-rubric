@@ -95,7 +95,7 @@ describe('2 - Adicione à página uma paleta de quatro cores distintas.', () => 
   });
 });
 
-describe('3 - Adicione na página a cor **preta** ela deve ser a primeira na paleta de cores.', () => {
+describe('3 - Adicione a cor **preta** como a primeira cor da paleta de cores.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
@@ -216,7 +216,7 @@ describe('5 - Faça com que cada elemento do quadro de pixels possua 40 pixels d
   });
 });
 
-describe('6 - Definia a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels', () => {
+describe('6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
@@ -233,7 +233,7 @@ describe('6 - Definia a cor preta como cor inicial. Ao carregar a página a cor 
   });
 });
 
-describe('7 -  Selecione uma das cores da paleta, ao clicar, a cor selecionada é a que será utilizada para preencher os pixels no quadro.', () => {
+describe('7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
   });
@@ -432,7 +432,7 @@ describe('10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.'
   });
 });
 
-describe('11 - Limite o tamanho do mínimo e máximo do board.', () => {
+describe('11 - Limite o tamanho mínimo e máximo do board.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
     cy.get('.pixel').should('have.length', 25);

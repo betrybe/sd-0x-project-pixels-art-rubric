@@ -266,7 +266,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se a paleta de cores não contém cores repetidas.
 
-### 3 - Adicione na página a cor **preta** ela deve ser a primeira na paleta de cores.
+### 3 - Adicione a cor **preta** como a primeira cor da paleta de cores.
 
 **O que será verificado:**
 
@@ -302,7 +302,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se 40 pixels é o tamanho total do elemento, incluindo seu conteúdo e excluindo a borda preta, que deve ser criada à parte.
 
-### 6 - Definia a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels
+### 6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels
 
 - O elemento da cor preta deve possuir, inicialmente, a `classe` `selected`;
 
@@ -314,7 +314,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se nenhuma outra cor da paleta tem a `classe` `selected`
 
-### 7 - Selecione uma das cores da paleta, ao clicar, a cor selecionada é a que será utilizada para preencher os pixels no quadro.
+### 7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro.
 
 - A `classe` `selected` deve ser adicionada à cor selecionada na paleta, ao mesmo tempo em que é removida da cor anteriormente selecionada;
 
@@ -392,7 +392,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - Verifica se o novo quadro tem todos os pixels preenchidos com a cor branca
 
-### 11 - Limite o tamanho do mínimo e máximo do board.
+### 11 - Limite o tamanho mínimo e máximo do board.
 
 - Caso o valor digitado no input `board-sze` fuja do intervalo de 5 a 50, faça:
 
