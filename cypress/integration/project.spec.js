@@ -32,7 +32,7 @@ describe('2 - Adicione à página uma paleta de quatro cores distintas.', () => 
     cy.get('#color-palette').should('be.visible');
   });
 
-  it('Verifica se cada cor individual da paleta de cores possui a `classe` `color`.', () => {
+  it('Verifica se cada cor individual da paleta de cores possui a `classe` chamada `color`.', () => {
     cy.get('.color')
       .should('have.length', 4)
       .then((colors) => {
